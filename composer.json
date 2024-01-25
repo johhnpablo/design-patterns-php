@@ -1,0 +1,16 @@
+{
+    "name": "johnpablo/design-patterns-php",
+    "description": "reading book",
+    "autoload": {
+        "psr-4": {
+            "Johnpablo\\DesignPatternsPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Pablo",
+            "email": "92765140+johhnpablo@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
