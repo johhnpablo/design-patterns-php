@@ -4,10 +4,14 @@ namespace Singleton;
 
 class LogsSingleton
 {
-    //@var self $instancia Instância da classe de logs.
-    protected static LogsSingleton $instancia;
+    //@var self instance Instância da classe de logs.
+    protected static LogsSingleton $instace;
 
-    public function gravarLog(array $data) : void
+    private function __construct()
+    {
+        //code
+    }
+    public function logRecord(array $data) : void
     {
         $nameFile = 'logs.text';
         $previousLogs = [];
@@ -20,4 +24,13 @@ class LogsSingleton
         fwrite($file, json_encode($previousLogs));
         fclose($file);
     }
+
+    public static function getInstance(): self
+    {
+        if (empty(self::$instace)){
+            self::$instace = new self();
+        }
+        return self::$instace;
+    }
 }
+

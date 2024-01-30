@@ -12,5 +12,7 @@
             "email": "92765140+johhnpablo@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-json": "*"
+    }
 }
