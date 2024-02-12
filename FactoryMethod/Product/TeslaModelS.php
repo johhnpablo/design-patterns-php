@@ -1,20 +1,21 @@
-<?php 
+<?php
 
 namespace FactoryMethod\Product;
 
-class TeslaModelX implements ProductCar
+class TeslaModelS implements CarroProduct
 {
     public function acelerar(): void
     {
-        echo "Acelerando Tesla modelo X\n";
+        echo "Acelerando Tesla Modelo S\n";
     }
 
     public function frear(): void
     {
-        echo "Freando Tesla Modelo X\n";
+        echo "Freando Tesla Modelo S\n";
     }
+
     public function trocarMarcha(): void
     {
-        echo"Trocando marcha Tesla Modelo X\n";
+        echo "Trocando marcha do Tesla Modelo S\n";
     }
 }
