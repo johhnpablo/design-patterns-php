@@ -1,4 +1,4 @@
 # Desgin Patterns com PHP
 Esse é um espaço onde eu compartilho os meus estudos sobre design patterns no PHP 7, baseados no livro **"Design Patterns com PHP 7: Desenvolva com as melhores soluções"** de *Gabriel Anhaia*. 
 
-Design patterns são soluções reutilizáveis para problemas comuns de software, que ajudam a melhorar a qualidade, a manutenção, e a escalabilidade do código. No meu repositório, você vai encontrar exemplos de código de vários design patterns, como Singleton, Factory, Strategy, Observer, Decorator, e muitos outros. Espero que o meu repositório seja útil para quem quer aprender mais sobre design patterns no PHP 7.
+Design patterns são soluções reutilizáveis para problemas comuns de software, que ajudam a melhorar a qualidade, a manutenção, e a escalabilidade do código. No meu repositório, você vai encontrar exemplos de código de vários design patterns, como Singleton, Factory, Strategy, Observer, Decorator, e muitos outros. Espero que o meu repositório seja útil para quem quer aprender mais sobre design patterns no PHP 7 ou versões posteriores.
